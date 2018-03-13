@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Almanac",
+		"path": "almanac",
+		"source": "http://github.com/rmlewisuk/almanac/",
+		"desc": "A microblog for what you've watched, read, and listened to."
+	},
+	{
+		"name": "One40",
+		"path": "one40",
+		"source": "http://github.com/rmlewisuk/one40",
+		"desc": "Self hosted personal Twitter archive"
+	}
+]

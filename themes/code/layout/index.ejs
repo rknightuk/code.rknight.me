@@ -1,0 +1,23 @@
+<h1><%- config.title %></h1>
+
+<ul>
+	<li><a href="https://twitter.com/rmlewisuk">twitter.com/rmlewisuk</a></li>
+	<li><a href="https://github.com/rmlewisuk">github.com/rmlewisuk</a></li>
+	<li><a href="https://robblewis.me">robblewis.me</a></li>
+</ul>
+
+<h2>Projects</h2>
+
+<% if (site.data.projects) { %>
+  <ul class="project-list">
+    <% for(var obj in site.data.projects){ %>
+        <li class="project-item">
+          <%= site.data.projects[obj].name %>: <%- site.data.projects[obj].desc %>
+          <ul>
+          	<li><a href="/<%= site.data.projects[obj].path %>">Documentation</a></li>
+          	<li><a href="<%= site.data.projects[obj].source %>">Source</a></li>
+          </ul>
+        </li>
+    <% } %>
+  </ul>
+<% } %>

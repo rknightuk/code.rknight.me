@@ -1,0 +1,1 @@
+Theme based on https://github.com/justinjaywang/hexoplate
