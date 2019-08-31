@@ -1,22 +1,21 @@
 ---
 title: one40
-forkme: https://github.com/rmlewisuk/one40
+forkme: https://github.com/rknightuk/one40
+screenshot: /one40/screenshot.jpg
 ---
 
 A personal, searchable Twitter archive built with Laravel.
 
-[View a live demo](https://tweets.rbbl.ws)
-
-![](/screenshot.jpg)
+[View a live demo](https://tweets.rknight.me)
 
 ## Requirements
 
 - See the [Laravel requirements](https://laravel.com/docs/5.4#server-requirements)
 - A twitter account
 
-## Inital Setup
+## Initial Setup
 
-- Clone the repository `git clone https://github.com/rmlewisuk/one40.git one40`
+- Clone the repository `git clone https://github.com/rknight/one40.git one40`
 - Navigate to the root `cd one40`. 
 - Run `composer install`
 - Create a copy of the example env file `cp .env.example .env`. 
@@ -45,7 +44,7 @@ You can fetch new tweets by running `php artisan one40:fetch`. This will import 
 
 ## Contributing
 
-The primary purpose of this is for me to be able to quickly search my tweets. I am aware there are some weird bugs with imported tweets being truncated and displaying in strange ways ([see all issues](https://github.com/rmlewisuk/one40/issues)) — I don't have the time to fix them but I will happily accept pull requests that fix these issues.
+The primary purpose of this is for me to be able to quickly search my tweets. I am aware there are some weird bugs with imported tweets being truncated and displaying in strange ways ([see all issues](https://github.com/rknight/one40/issues)) — I don't have the time to fix them but I will happily accept pull requests that fix these issues.
 
 I'm also aware of how messy a lot of the code is — a lot of the importing code is copy/pasted from [Tweetnest](https://github.com/graulund/tweetnest). Again, I'll happily accept PRs that improve this.
 
@@ -55,4 +54,4 @@ If you have an idea for a new feature, open an issue describing the feature so w
 
 Signifcant portions of the tweet importing logic is from [Tweetnest](https://github.com/graulund/tweetnest/blob/master/LICENSE.txt) licensed under MIT.
 
-[http://rmlewisuk.mit-license.org/](http://rmlewisuk.mit-license.org/)
+[https://rknightuk.mit-license.org/](https://rknightuk.mit-license.org/)

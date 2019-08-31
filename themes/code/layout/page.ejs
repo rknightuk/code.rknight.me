@@ -8,6 +8,19 @@
 
 	<h2><%- page.title %></h2>
 
+	<% if (page.screenshot) { %>
+		<div class="frame">
+		    <div class="browser">
+		        <div class="header">
+		            <div class="circle"></div>
+		            <div class="circle"></div>
+		            <div class="circle"></div>
+		        </div>
+		        <img class="image" src="<%= page.screenshot %>">
+		    </div>
+		</div>
+	<% } %>
+
  	<%- page.content %>
 
 </main>
