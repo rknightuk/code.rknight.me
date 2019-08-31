@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Robb Lewis: Code"
-author: Robb Lewis
-description: "Projects by Robb Lewis"
+title: "Robb Knight: Code"
+author: Robb Knight
+description: "Projects by Robb Knight"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://code.robblewis.me
+url: http://code.rknight.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
